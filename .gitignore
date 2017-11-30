@@ -31,5 +31,8 @@
 *.out
 *.app
 
+# Vim Swap file
+.swp
+
 # CMake Build Directory
 build/

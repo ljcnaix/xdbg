@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.0)
 project (XDbg)
 
-add_compile_options(-std=c++11)
+set(CMAKE_CXX_FLAGS "-std=c++14 ${CMAKE_CXX_FLAGS}")
 
 include_directories(ext/libelfin ext/linenoise include)
 
